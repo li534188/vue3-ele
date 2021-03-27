@@ -35,7 +35,8 @@ module.exports ={
   resolve: {
     // 设置别名
     alias: {
-      '@': path.resolve(__dirname, './src')// 这样配置后 @ 可以指向 src 目录
+      '@': path.resolve(__dirname, './src'), // 这样配置后 @ 可以指向 src 目录
+      'PAGE': path.resolve(__dirname, './src/page')
     }
   },
   //   mode:'none',
